@@ -25,17 +25,17 @@ Vue.component(
 );
 Vue.component(
     "passport-clients",
-    require("./components/passport/Clients.vue")
+    require("./components/passport/Clients.vue").default
 );
 
 Vue.component(
     "passport-authorized-clients",
-    require("./components/passport/AuthorizedClients.vue")
+    require("./components/passport/AuthorizedClients.vue").default
 );
 
 Vue.component(
     "passport-personal-access-tokens",
-    require("./components/passport/PersonalAccessTokens.vue")
+    require("./components/passport/PersonalAccessTokens.vue").default
 );
 
 /**
